@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>見えなくてもできるばい！</title>
+  <!-- map最新情報 -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+      <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+ crossorigin=""></script>
+
+ <!-- 背景画像 -->
+ <link rel="stylesheet" href="path/to/your/styles.css">
+      
+<!-- スライドショー -->
+<link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-7/css/6-1-7.css">
+<link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  
+</head>
+
+<body>
+  <header>
+    <h1>見えなくてもできるばい！</h1>
+  </header>
+
+  <nav>
+    <a href="#activity">取り組み紹介</a>
+    <a href="#video">事例の動画</a>
+    <a href="#game">ゲーム紹介</a>
+    <a href="#location">子ども食堂の場所</a>
+  </nav>
+
+  <main>
+    <!-- サブタイトル -->
+    <h2>〜子供向け親子で学べる視覚障害者の聴覚と触覚による認知〜<h2>
+    <!-- タイトル写真 -->
+    <p><img src="images/coin.jpg" alt="コインゲーム"></p>
+
+    <section id="activity">
+      <p>取り組み紹介</p>
+      <br>
+      <p>子ども向けに視覚に頼らず聴覚や触覚で情報を得る方法を知ってもらうためのアクティビティです</p>
+      <p>子ども食堂に来てくださるご家族の皆様に体験していただきました。</p>
+      <p>※(現在はこのアクティビティは開催していません。)</p>
+      <br>
+    </section>
+
+    <section id="video">
+      <p>事例の動画</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/xxBKhYya528?si=MjpbmreB8eupcrKb" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <section id="game">
+      <p>ゲーム紹介</p>
+      <ul class="slider">
+        <li><img src="images/coingame.png" alt="コインゲーム"></li>
+        <li><img src="images/monootosi.png" alt="物落とし"></li>
+        <li><img src="images/origami.png" alt="折り紙"></li>
+        <li><img src="images/coingame.png" alt="コインゲーム"></li>
+        <li><img src="images/monootosi.png" alt="物落とし"></li>
+        <li><img src="images/origami.png" alt="折り紙"></li>
+      </ul> 
+    </section>
+
+    <section id="location">
+      <p>子ども食堂の場所</p>
+      <div id="map"></div>
+    </section>
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <!-- スライドショー -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-7/js/6-1-7.js"></script>
+  <script href="script.js"></script>
+</body>
+
+</html>
