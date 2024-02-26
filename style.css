@@ -4,7 +4,6 @@
 body {
     background-color: #f5f0b4;
     text-align: center;
-    margin: 50;
 }
 
 @media screen and (max-width: 768px) {
@@ -18,7 +17,9 @@ body {
     }
     
     #map {
-      height: 300px; /* マップの高さを調整する */
+        height: 70vh; /* マップの高さを調整する */
+        width: 100%; /* マップの幅を画面幅いっぱいに調整する */
+        margin: 0 5px; /* マップの左右の余白を調整する */
     }
   }
   
@@ -46,7 +47,6 @@ nav {
 }
 
 nav a {
-    float: left;
     display: block;
     color: black;
     text-align: center;
@@ -64,6 +64,7 @@ nav a:hover {
     margin: 0 auto;
     height: 60vh;
     width: 60%;
+    max-width: 100%; /* 画面幅を超えた場合に横スクロールが発生しないようにする */
 }
 
 /* ふきだしのスタイル変更 */
