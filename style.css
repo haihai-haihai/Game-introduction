@@ -63,8 +63,8 @@ nav a:hover {
 /* マップのスタイル */
 #map {
     margin: 0 auto;
-    height: 60vh;
-    width: 60%;
+    height: 70vh;
+    width: 100%;
     max-width: 100%; /* 画面幅を超えた場合に横スクロールが発生しないようにする */
 }
 
@@ -86,7 +86,7 @@ img {
 }
 
 .slider img {
-    width: 40vw;
+    width: 100%;/* 画像を画面幅いっぱいに表示する */
     height: auto;
 }
 
