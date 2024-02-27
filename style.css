@@ -2,7 +2,8 @@
 
 /* 共通のスタイル */
 body {
-    background-color: #f5f0b4;
+    background-color: #ffdfc3;
+    color: #a75d27;
     text-align: center;
 }
 
@@ -33,14 +34,14 @@ body {
 
 /* メニューバーのスタイル */
 header {
-    background-color: #f5f0b4;
-    color: black;
+    background-color: white;
+    color: #a75d27;
     text-align: center;
     padding: 1em 0;
 }
 
 nav {
-    background-color: #e0d7bf;
+    background-color: #f0a167;
     overflow: hidden;
     display: flex; /* 中央揃えのための追加 */
     justify-content: center; /* 中央揃えのための追加 */
@@ -48,15 +49,15 @@ nav {
 
 nav a {
     display: block;
-    color: black;
+    color: #623b1e;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #ed8f4c;
-    color: black;
+    background-color: white;
+    color: #a75d27;
 }
 
 /* マップのスタイル */
@@ -139,16 +140,7 @@ img {
 
 /* フッター */
 footer {
-    margin-top: 60px; /* フッターの上部に50pxの余白を追加 */
-    background-color: #e0d7bf; /* フッターの背景色 */
-    color: black; /* フッターの文字色 */
-  }
-  
-  footer a {
-    color: black; /* フッターのリンク色の初期値 */
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    color: #ccc; /* フッターのリンク色のホバー時 */
+    margin-top: 60px; 
+    background-color: #f0a167; 
+    color: #623b1e; 
   }
