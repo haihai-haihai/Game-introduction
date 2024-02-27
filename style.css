@@ -56,7 +56,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     color: #a75d27;
 }
 
