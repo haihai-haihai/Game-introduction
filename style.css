@@ -41,7 +41,7 @@ header {
 }
 
 nav {
-    background-color: f0a167;
+    background-color: #f0a167;
     overflow: hidden;
     display: flex; /* 中央揃えのための追加 */
     justify-content: center; /* 中央揃えのための追加 */
@@ -141,6 +141,6 @@ img {
 /* フッター */
 footer {
     margin-top: 60px; 
-    background-color: #f0e9d9; 
+    background-color: #f0a167; 
     color: #52351e; 
   }
